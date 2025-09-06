@@ -200,6 +200,9 @@
   .top-1\/2 {
     top: calc(1/2 * 100%);
   }
+  .top-\[-10px\] {
+    top: -10px;
+  }
   .right-0 {
     right: calc(var(--spacing) * 0);
   }
@@ -211,6 +214,24 @@
   }
   .bottom-0 {
     bottom: calc(var(--spacing) * 0);
+  }
+  .bottom-20 {
+    bottom: calc(var(--spacing) * 20);
+  }
+  .bottom-\[-10px\] {
+    bottom: -10px;
+  }
+  .bottom-\[-20px\] {
+    bottom: -20px;
+  }
+  .bottom-\[-120px\] {
+    bottom: -120px;
+  }
+  .bottom-\[-1120px\] {
+    bottom: -1120px;
+  }
+  .bottom-\[120px\] {
+    bottom: 120px;
   }
   .z-10 {
     z-index: 10;
@@ -244,6 +265,9 @@
   }
   .mt-10 {
     margin-top: calc(var(--spacing) * 10);
+  }
+  .mb-3 {
+    margin-bottom: calc(var(--spacing) * 3);
   }
   .mb-5 {
     margin-bottom: calc(var(--spacing) * 5);
@@ -554,6 +578,9 @@
   .p-3 {
     padding: calc(var(--spacing) * 3);
   }
+  .p-3\.5 {
+    padding: calc(var(--spacing) * 3.5);
+  }
   .p-5 {
     padding: calc(var(--spacing) * 5);
   }
@@ -602,6 +629,12 @@
   .pt-3 {
     padding-top: calc(var(--spacing) * 3);
   }
+  .pt-7 {
+    padding-top: calc(var(--spacing) * 7);
+  }
+  .pt-10 {
+    padding-top: calc(var(--spacing) * 10);
+  }
   .pr-7 {
     padding-right: calc(var(--spacing) * 7);
   }
@@ -622,6 +655,9 @@
   }
   .pb-15 {
     padding-bottom: calc(var(--spacing) * 15);
+  }
+  .pb-20 {
+    padding-bottom: calc(var(--spacing) * 20);
   }
   .text-center {
     text-align: center;
