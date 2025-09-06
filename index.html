@@ -21,7 +21,7 @@
 
     <main class="flex flex-col justify-center bg-linear-to-t from-[#cadef5] via-[#e2ebf5] to-[#d2cce7]">
         <section class="relative">
-            <div class="absolute w-full object-cover">
+            <div class="absolute w-full">
                 <img src="./assets/hero-wave.png" class="w-full object-cover" alt="Background image" loading="lazy">
             </div>
 
@@ -314,6 +314,14 @@
                         </a>
                     </div>
                 </section>
+                
+                <div class="flex justify-end pe-10 pb-10">
+                    <div class="flex flex-col items-center hover-transition-state">
+                        <i class="fas fa-arrow-up bg-white p-2.5 rounded-full shadow-lg ring-1 ring-gray-200 flex items-center justify-center"></i>
+                        <p class="font-light hidden md:inline">Return to the top</p>
+                    </div>
+                </div>
+
             </section>
         </section>
     </main>
@@ -329,12 +337,12 @@
                 <p>Ebglyss<sup>®</sup> EMOTIONAL WELLBEING PROGRAMME</p>
                 <p>UK&IE-LEBRI-24000XX December 2024</p>
             </div>
-            <div class="font-bold flex gap-4">
+            <div class="font-bold flex justify-start gap-4 md:justify-center">
                 <a href="#">Privacy Policy</a>
                 <a href="#">Cookies Policy</a>
             </div>
-            <div class="w-[200px]">
-                <img src="./assets/bionical-health.png" alt="Bionical logo" loading="lazy">
+            <div class="flex justify-start md:justify-end">
+                <img class="w-48 h-auto object-contain" src="./assets/bionical-health.png" alt="Bionical logo" loading="lazy">
             </div>
         </div>
     </footer>
